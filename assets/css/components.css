@@ -1,10 +1,11 @@
 /* form */
 form {
     background: #fff;
-    padding: 20px;
+    padding: 20px 50px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 480px;
+    max-width: 500px;
+    min-width: 450px;
     min-height: 600px;
 }
 
@@ -142,6 +143,7 @@ form a, form p {
 
     form {
         padding: 20px 8px;
+        min-width: 300px;
     }
     .avatarImg{
         border-width: 5px !important;
