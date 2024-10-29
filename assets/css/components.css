@@ -124,7 +124,9 @@ form a, form p {
     width: 20px;
     height: 20px;
 }
-
+.checkInput label{
+    color: #000 !important;
+}
 .avatarImg{
     border-width: 20px !important;
      width: 175px;
