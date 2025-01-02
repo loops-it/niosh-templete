@@ -4,7 +4,7 @@ form {
     padding: 20px 50px;
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 500px;
+    max-width: 525px;
     min-width: 450px;
     min-height: 600px;
 }
@@ -135,6 +135,15 @@ form a, form p {
 .cameraInput{
     bottom: 18px !important;
     right: 40px !important;
+}
+.inputIcon{
+    position: absolute;
+    left: 8px;
+    display: flex;
+    align-items: center;
+}
+.keyIcon{
+    left: 2px !important;
 }
 /* Responsive styles */
 /* ----------------------------------- */
