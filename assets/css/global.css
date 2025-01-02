@@ -67,6 +67,11 @@ section {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .mobile-form-login-color{
+    background-color: #EFEFEF !important;
+  }
+}
 /* ≤576px */
 @media screen and (max-width: 576px) {
   section {
@@ -129,7 +134,11 @@ section {
     height: 75%;
   }
 }
-
+@media screen and (min-width: 768px) {
+  .fill-area-container{
+    overflow: hidden;
+  }
+}
 
 
 /* Common Classes */
@@ -145,9 +154,7 @@ section {
 .shadow-bottom{
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
-.fill-area-container{
-  overflow: hidden;
-}
+
 .scroll-area {
   overflow-y: auto;
   scrollbar-width: none;
