@@ -64,11 +64,19 @@
               <div class="error" id="emailError"></div>
 
               <div class="password-container">
-                <input type="password" class="custom-input" id="password" placeholder="Password" required>
-                <img src="assets/img/EyeClosed.svg" class="toggle-eye" id="togglePassword"
-                  onclick="togglePasswordVisibility('password', 'togglePassword')">
+                <input type="password" class="custom-input" id="password1" placeholder="Password" required>
+                <img src="assets/img/EyeClosed.svg" class="toggle-eye" id="togglePassword1"
+                  onclick="togglePasswordVisibility('password1', 'togglePassword1')">
               </div>
               <div class="error" id="passwordError"></div>
+
+              <div class="password-container">
+                <input type="password" class="custom-input" id="password2" placeholder="Confirm Password" required>
+                <img src="assets/img/EyeClosed.svg" class="toggle-eye" id="togglePassword2"
+                  onclick="togglePasswordVisibility('password2', 'togglePassword2')">
+              </div>
+              <div class="error" id="passwordError"></div>
+
             </div>
 
             <button type="submit" class="button font-poppins">CREATE MY ACCOUNT</button>
@@ -93,26 +101,28 @@
   </main>
 
   <!-- Footer -->
-  <section class="w-100" style="box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);">
-    <footer class="footer w-100 py-3 px-0 mx-0 d-flex flex-column-reverse flex-md-row align-items-center">
-      <div
-        class="col-12 col-md-6  px-0 mx-0 d-flex text-center text-md-start justify-content-center justify-content-md-start">
-        <!-- <p class="font-poppins mb-0 text-size">&copy; 2024 YourBrand. All Rights Reserved.</p> -->
-      </div>
-      <div
-        class="col-12 col-md-6 px-0 mx-0 d-flex text-center text-md-end justify-content-center justify-content-md-end">
-        <ul class="d-flex flex-row  ">
-          <li>
-            <!-- <a href="#" class="font-poppins mb-0 text-size">Terms and conditions</a> -->
-          </li>
-          <!-- <li class="d-block d-md-none">|</li> -->
-          <li>
-            <!-- <a href="#" class="font-poppins mb-0 text-size">Privacy policy</a> -->
-          </li>
-        </ul>
-      </div>
-    </footer>
-  </section>
+  <div class="w-100" style="box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);">
+    <section class="w-100">
+      <footer class="footer w-100 py-3 px-0 mx-0 d-flex flex-column-reverse flex-md-row align-items-center">
+        <div
+          class="col-12 col-md-6  px-0 mx-0 d-flex text-center text-md-start justify-content-center justify-content-md-start">
+          <!-- <p class="font-poppins mb-0 text-size">&copy; 2024 YourBrand. All Rights Reserved.</p> -->
+        </div>
+        <div
+          class="col-12 col-md-6 px-0 mx-0 d-flex text-center text-md-end justify-content-center justify-content-md-end">
+          <ul class="d-flex flex-row  ">
+            <li>
+              <!-- <a href="#" class="font-poppins mb-0 text-size">Terms and conditions</a> -->
+            </li>
+            <!-- <li class="d-block d-md-none">|</li> -->
+            <li>
+              <!-- <a href="#" class="font-poppins mb-0 text-size">Privacy policy</a> -->
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </section>
+  </div>
 
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"

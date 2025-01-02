@@ -15,6 +15,8 @@ function togglePasswordVisibility(passwordId, eyeIconId) {
   }
 }
 
+
+
   
 
 document.getElementById('accountForm').addEventListener('submit', function (event) {
